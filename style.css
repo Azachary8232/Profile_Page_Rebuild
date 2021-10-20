@@ -17,6 +17,7 @@
 
 .navBar{
     height: 75px;
+    background-color: dimgray;
 }
 
 .innerNavBar{
@@ -24,6 +25,32 @@
     height: 100%;
     justify-content: space-between;
     border-color: purple;
+    align-items: center;
+}
+
+.profile{
+    font-size: 28pt;
+    color: white;
+}
+
+.links{
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: skyblue;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    width: 85px;
+    height: 25px;
 }
 
 .mainContainer{
