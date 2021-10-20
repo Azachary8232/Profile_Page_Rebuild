@@ -61,6 +61,14 @@
 
 .banner{
     width: 100.5%;
+    background-color: dimgray;
+    height: 25%;
+}
+
+.banner h3{
+    display: inline-block;
+    color: white;
+    margin: 13px 0px 0px 30px;
 }
 
 .leftColumn{
@@ -87,10 +95,11 @@
 .leftTopBanner{
     height: 25%;
     background-color: skyblue;
+    padding: 0px;
 }
 
 .leftTopContent{
-    height: 75%;
+    height: 70%;
     width: 100%;
     border: 1px solid gray;
 }
@@ -115,6 +124,20 @@
     border-color: green;
     height: 35%;
     width: 100%;
+}
+
+.leftBottomContent{
+    height: 80%;
+    width: 100%;
+    border-color: grey;
+}
+
+.leftBottomContent h3{
+    margin: 20px 0px 20px 35px;
+}
+
+.leftBottomContent p{
+    margin-left: 35px;
 }
 
 .map{
