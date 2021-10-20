@@ -14,3 +14,59 @@
 .marginAuto{
     margin: auto;
 }
+
+.navBar{
+    height: 75px;
+}
+
+.innerNavBar{
+    width: 60%;
+    height: 100%;
+    justify-content: space-between;
+    border-color: purple;
+}
+
+.mainContainer{
+    height: 550px;
+    width: 60%;
+    margin-top: 25px;
+}
+
+.leftColumn{
+    flex: 3;
+    height: 100%;
+    border-color: red;
+}
+
+.rightColumn{
+    flex: 2;
+    height: 90%;
+    border-color: blue;
+}
+
+.leftTopBox{
+    height: 60%;
+    width: 100%;
+    border-color: yellow;
+    margin-bottom: 20px;
+}
+
+.leftBottomBox{
+    border-color: green;
+    height: 35%;
+    width: 100%;
+}
+
+.rightTopBox{
+    border-color: green;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 20px;
+}
+
+.rightBottomBox{
+    border-color: black;
+    width: 100%;
+    height: 55%;
+}
+
