@@ -59,29 +59,71 @@
     margin-top: 25px;
 }
 
+.banner{
+    width: 100.5%;
+}
+
 .leftColumn{
     flex: 3;
     height: 100%;
     border-color: red;
+    margin-right: 10px;
 }
 
 .rightColumn{
     flex: 2;
     height: 90%;
     border-color: blue;
+    margin-left: 10px;
 }
 
 .leftTopBox{
     height: 60%;
     width: 100%;
-    border-color: yellow;
+    border-color: black;
     margin-bottom: 20px;
+}
+
+.leftTopBanner{
+    height: 25%;
+    background-color: skyblue;
+}
+
+.leftTopContent{
+    height: 75%;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.leftTopInfo{
+    margin: 60px 0px 0px 30px;
+}
+
+.profileImg{
+    width: 100px;
+    margin: 35px 0px 0px 30px;
+    border: 3px solid lightgray;
+    border-radius: 50%;
+}
+
+.leftTopInfo h3{
+    display: inline-block;
+    margin: 15px 0px 15px 10px;
 }
 
 .leftBottomBox{
     border-color: green;
     height: 35%;
     width: 100%;
+}
+
+.map{
+    width: 15px;
+}
+
+.gear{
+    width: 15px;
+    margin: 15px 10px 0px 0px;
 }
 
 .rightTopBox{
